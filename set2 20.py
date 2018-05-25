@@ -1,0 +1,19 @@
+N=list(input())
+L=[]
+for i in N:
+  if(i=='x'):
+    L.append('a')
+  elif(i=='y'):
+    L.append('b')
+  elif(i=='z'):
+    L.append('c')
+  elif(i=='X'):
+    L.append('A')
+  elif(i=='Y'):
+    L.append('B')
+  elif(i=='Z'):
+    L.append('C')
+  else:
+    c=chr(ord(i)+3)
+    L.append(c)
+print(''.join(L))
