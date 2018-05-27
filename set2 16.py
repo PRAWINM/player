@@ -1,8 +1,5 @@
 N=int(input())
-L=[]
-for i in range(0,N):
-  c=int(input())
-  L.append(c)
+L=list(map(int,input().split(" ")))[:N]
 A=[]
 for i in L:
   if(L.count(i)!=1):
