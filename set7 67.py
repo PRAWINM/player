@@ -1,4 +1,4 @@
-N=int(input("enter a number:"))
+N=int(input())
 fact=1
 for i in range(1,N+1):
   fact=fact*i
