@@ -1,15 +1,10 @@
-s = input("Enter the string: ")
-n = s
-
-vowels = ('a', 'e', 'i', 'o', 'u')
-for x in s.lower():
-	if x in vowels:
-		n = n.replace(x,"")
-		
-def rev(n):
-  str = ""
-  for i in n:
-    str = i + str
-  return str
-
-print (rev(n))
+n=input("Enter the string:")
+c=('a','e','i','o','u','A','E','I','O','U')
+a=[]
+for i in n:
+  if i in c:
+    continue
+  else:
+    a.append(i)
+b=a[::-1]
+print(''.join(b))
