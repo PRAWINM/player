@@ -1,3 +1,2 @@
-a=raw_input("Enter a string: ")
-print("Reverse of the string is: ")
+a=raw_input()
 print(a[::-1])
